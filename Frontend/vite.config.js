@@ -1,7 +1,4 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
-
 export default defineConfig({
+  base: "/EventApplication/",  // Set to your repo name
   plugins: [react()],
-  base: "/EventApplication/Frontend/",  // Make sure this matches your repository name!
 });
